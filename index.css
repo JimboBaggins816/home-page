@@ -1,0 +1,118 @@
+html body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-right {
+    margin-left: 1215px;
+}
+
+.top-right li {
+    display: inline-block;
+}
+
+.top-right li a {
+    text-decoration: none;
+    color: #262626;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-size: 0.9em;
+}
+
+.sign-in {
+    color: white;
+    background-color: #00aaff;
+    border-radius: 7%;
+    border-color: #00aaff;
+    border-color: transparent;
+}
+/*end navbar*/
+.logo {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 24%;
+    margin-top: 15px;
+}
+
+.s-bar {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    width: 27%;
+    height: 42px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-style: solid;
+    border-width: thin;
+    background-color: white;
+    outline: none;
+    border-radius: 30px;
+    border-color: #d9d9d9;
+}
+.search-icon {
+    height: 15px;
+    width: 30px;
+    position: relative;
+    top: -34px;
+    left: 428px;
+}
+
+.mic-icon {
+    width: 12px;
+    height: 18px;
+    position: relative;
+    top: -32px;
+    left: 941px;
+}
+
+.search-buttons li {
+    display: inline-block;
+    padding-right: 20px;
+}
+.search-buttons {
+    text-align: center;
+}
+.search-buttons li a {
+    text-decoration: none;
+    color: #4d4d4d;
+    background-color: hsl(0, 0%, 97%);
+    padding: 9px;
+    border-radius: 7%;
+}
+/*end search bar*/
+
+footer {
+    background-color: hsl(0, 0%, 95%);
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    height: 45px;
+}
+
+.bottom-left {
+    float: left;
+}
+.bottom-left li {
+    display: inline-block;
+    padding-left: 30px;
+    padding-top: 10px;
+}
+.bottom-left li a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 15px
+}
+
+.bottom-right {
+    float: right;
+}
+.bottom-right li {
+    display: inline-block;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+.bottom-right li a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 15px;
+}
